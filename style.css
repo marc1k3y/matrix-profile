@@ -107,11 +107,6 @@ main {
     background-color: black;
 }
 
-/* .contact>h4 {
-    color: rgb(0, 255, 0);
-    margin-bottom: 0.5rem;
-} */
-
 .contact a {
     text-decoration: none;
     color: rgb(0, 255, 0);
@@ -123,7 +118,12 @@ main {
     color: black;
 }
 
-/* 
-@media only screen and (max-height: 500px) {
-    
-} */
+
+@media only screen and (max-height: 600px) {
+    .info {
+        display: none;
+    }
+    .skills {
+        display: none;
+    }
+}
